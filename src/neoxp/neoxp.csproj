@@ -1,0 +1,30 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <AssemblyName>neoxp</AssemblyName>
+    <Description>neo-express is a Neo developer blockchain tool</Description>
+    <OutputType>Exe</OutputType>
+    <PackageId>Neo.Express</PackageId>
+    <PackAsTool>true</PackAsTool>
+    <RootNamespace>NeoExpress</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Nito.Disposables" Version="2.2.1" />
+  </ItemGroup>
+
+  <Choose>
+    <When Condition=" '$(BlockchainToolkitLibraryVersion)' == 'local'">
+      <ItemGroup>
+        <ProjectReference Include="$(NeoModuleLocalPath)\src\DBFTPlugin\DBFTPlugin.csproj" />
+        <ProjectReference Include="$(NeoModuleLocalPath)\src\RpcServer\RpcServer.csproj" />
+      </ItemGroup>
+    </When>
+    <Otherwise>
+      <ItemGroup>
+        <PackageReference Include="Neo.Consensus.DBFT" Version="$(NeoModulesVersion)" />
+        <PackageReference Include="Neo.Plugins.RpcServer" Version="$(NeoModulesVersion)" />
+      </ItemGroup>
+    </Otherwise>
+  </Choose>
+
+</Project>
