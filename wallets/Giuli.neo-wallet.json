@@ -1,0 +1,29 @@
+{
+  "name": "Giuli",
+  "version": "1.0",
+  "scrypt": {
+    "n": 16384,
+    "r": 8,
+    "p": 8,
+    "size": 64
+  },
+  "accounts": [
+    {
+      "address": "NKxUoiM4fVDL4odZCHJANDjDPU293D7h8t",
+      "label": "Default account",
+      "isDefault": true,
+      "lock": false,
+      "key": "6PYUAtsPfqQDiPxpQq2rk71an6jHKAq9ieUPZePEZJk6XdUqegeLjfRZxE",
+      "contract": {
+        "script": "DCEDBdFF4rPtJhL5rOwt0Vjmxo+TBCKnnB9vyRccrwHVNulBVuezJw==",
+        "parameters": [
+          {
+            "name": "signature",
+            "type": "Signature"
+          }
+        ],
+        "deployed": false
+      }
+    }
+  ]
+}

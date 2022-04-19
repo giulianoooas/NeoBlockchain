@@ -1,0 +1,10 @@
+[
+  {
+    "contract": "Contract1Contract",
+    "args": [
+      "",
+      "sdsd"
+    ],
+    "operation": "updateContract"
+  }
+]

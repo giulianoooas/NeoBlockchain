@@ -71,6 +71,23 @@
           }
         }
       ]
+    },
+    {
+      "name": "Wallet3",
+      "accounts": [
+        {
+          "private-key": "1d8b9e802b4205f449dd67869c606a339f4d89fef48e3a13fe918689cf071af4",
+          "script-hash": "NVFzFf9rzcaXFcsWDfCh8pdPCNfNfW5n9G",
+          "label": null,
+          "is-default": true,
+          "contract": {
+            "script": "0c210325a4f39b54e8a6aa706cdd41b9ca71d0eba3a8c7333c3986e770017f0e0290934156e7b327",
+            "parameters": [
+              "Signature"
+            ]
+          }
+        }
+      ]
     }
   ],
   "settings": {}

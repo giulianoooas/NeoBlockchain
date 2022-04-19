@@ -1,0 +1,10 @@
+[
+  {
+    "contract": "Contract1Contract",
+    "operation": "updateContract",
+    "args": [
+      "Contract1Contract.cs",
+      ""
+    ]
+  }
+]
