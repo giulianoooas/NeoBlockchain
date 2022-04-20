@@ -13,5 +13,20 @@
       "NZdqjNUkd1PDXJyymMFCiEsiaVJg3dPxQx",
       2
     ]
+  },
+  {
+    "contract": "ContractForPresentingContract",
+    "operation": "showHelloWorld"
+  },
+  {
+    "contract": "ContractForPresentingContract",
+    "operation": "Set nft url",
+    "args": [
+      "nftUrl"
+    ]
+  },
+  {
+    "contract": "ContractForPresentingContract",
+    "operation": "Get NFT url"
   }
 ]

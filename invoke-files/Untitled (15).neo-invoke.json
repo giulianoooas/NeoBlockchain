@@ -1,0 +1,28 @@
+[
+  {
+    "contract": "Contract0Contract",
+    "operation": "Set nft url",
+    "args": [
+      "UrlNFT"
+    ]
+  },
+  {
+    "contract": "Contract0Contract",
+    "operation": "Get NFT url"
+  },
+  {
+    "contract": "Contract0Contract",
+    "operation": "changeNumber",
+    "args": [
+      1000
+    ]
+  },
+  {
+    "contract": "Contract0Contract",
+    "operation": "Transfer money",
+    "args": [
+      "NZdqjNUkd1PDXJyymMFCiEsiaVJg3dPxQx",
+      12
+    ]
+  }
+]
