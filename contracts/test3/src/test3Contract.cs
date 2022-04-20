@@ -1,4 +1,4 @@
-using System;
+﻿using System;
 using System.ComponentModel;
 using System.Numerics;
 
@@ -75,27 +75,13 @@ namespace Contract4
             return balance;
         }
 
-        [DisplayName("Transfer money")]
-        public static void TransferMoney(byte[] account, BigInteger positiveNumber){
-            if (positiveNumber <= 0){
-                throw new Exception("Number must be positive.");
-            }
-            
-            BigInteger amount = 0;
-            if (ContractStorage.Get(account) != null){
-                amount = (BigInteger)ContractStorage.Get(account);
-            } 
-
-            BigInteger personalAmount = (BigInteger)ContractStorage.Get(Tx.Sender);
-            if (personalAmount < positiveNumber){
-                throw new Exception("Can not send more money than yours.");
-            }
-            amount += positiveNumber;
-            personalAmount -= positiveNumber;
-
-            ContractStorage.Put(Tx.Sender, personalAmount);
-            ContractStorage.Put(account,amount);
-        }
+        // [DisplayName("Transfer money")]
+        // public static ByteString TransferMoney(byte[] account, BigInteger positiveNumber){
+        //     if (positiveNumber <= 0){
+        //         throw new Exception("Number must be positive.")
+        //     }
+        //     return "";
+        // }
 
         [DisplayName("Set nft url")]
         public static void SetNFTSrc(string url){

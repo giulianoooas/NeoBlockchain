@@ -1,0 +1,17 @@
+[
+  {
+    "contract": "Final1Contract",
+    "operation": "changeNumber",
+    "args": [
+      10
+    ]
+  },
+  {
+    "contract": "Final1Contract",
+    "operation": "Transfer money",
+    "args": [
+      "NZdqjNUkd1PDXJyymMFCiEsiaVJg3dPxQx",
+      2
+    ]
+  }
+]

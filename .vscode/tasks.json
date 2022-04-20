@@ -826,6 +826,706 @@
       },
       "problemMatcher": "$msCompile",
       "dependsOn": "_11: restore-tools"
+    },
+    {
+      "options": {
+        "cwd": "${workspaceFolder}/contracts/Contract11"
+      },
+      "label": "Contract11: restore-tools",
+      "command": "dotnet",
+      "type": "shell",
+      "args": [
+        "tool",
+        "restore"
+      ],
+      "presentation": {
+        "reveal": "silent"
+      },
+      "problemMatcher": []
+    },
+    {
+      "options": {
+        "cwd": "${workspaceFolder}/contracts/Contract11"
+      },
+      "label": "Contract11: build",
+      "command": "dotnet",
+      "type": "shell",
+      "args": [
+        "build",
+        "/property:GenerateFullPaths=true",
+        "/consoleloggerparameters:NoSummary"
+      ],
+      "group": "build",
+      "presentation": {
+        "reveal": "silent"
+      },
+      "problemMatcher": "$msCompile",
+      "dependsOn": "Contract11: restore-tools"
+    },
+    {
+      "options": {
+        "cwd": "${workspaceFolder}/contracts/_11"
+      },
+      "label": "_11: restore-tools",
+      "command": "dotnet",
+      "type": "shell",
+      "args": [
+        "tool",
+        "restore"
+      ],
+      "presentation": {
+        "reveal": "silent"
+      },
+      "problemMatcher": []
+    },
+    {
+      "options": {
+        "cwd": "${workspaceFolder}/contracts/_11"
+      },
+      "label": "_11: build",
+      "command": "dotnet",
+      "type": "shell",
+      "args": [
+        "build",
+        "/property:GenerateFullPaths=true",
+        "/consoleloggerparameters:NoSummary"
+      ],
+      "group": "build",
+      "presentation": {
+        "reveal": "silent"
+      },
+      "problemMatcher": "$msCompile",
+      "dependsOn": "_11: restore-tools"
+    },
+    {
+      "options": {
+        "cwd": "${workspaceFolder}/contracts/c1"
+      },
+      "label": "c1: restore-tools",
+      "command": "dotnet",
+      "type": "shell",
+      "args": [
+        "tool",
+        "restore"
+      ],
+      "presentation": {
+        "reveal": "silent"
+      },
+      "problemMatcher": []
+    },
+    {
+      "options": {
+        "cwd": "${workspaceFolder}/contracts/c1"
+      },
+      "label": "c1: build",
+      "command": "dotnet",
+      "type": "shell",
+      "args": [
+        "build",
+        "/property:GenerateFullPaths=true",
+        "/consoleloggerparameters:NoSummary"
+      ],
+      "group": "build",
+      "presentation": {
+        "reveal": "silent"
+      },
+      "problemMatcher": "$msCompile",
+      "dependsOn": "c1: restore-tools"
+    },
+    {
+      "options": {
+        "cwd": "${workspaceFolder}/contracts/aa"
+      },
+      "label": "aa: restore-tools",
+      "command": "dotnet",
+      "type": "shell",
+      "args": [
+        "tool",
+        "restore"
+      ],
+      "presentation": {
+        "reveal": "silent"
+      },
+      "problemMatcher": []
+    },
+    {
+      "options": {
+        "cwd": "${workspaceFolder}/contracts/aa"
+      },
+      "label": "aa: build",
+      "command": "dotnet",
+      "type": "shell",
+      "args": [
+        "build",
+        "/property:GenerateFullPaths=true",
+        "/consoleloggerparameters:NoSummary"
+      ],
+      "group": "build",
+      "presentation": {
+        "reveal": "silent"
+      },
+      "problemMatcher": "$msCompile",
+      "dependsOn": "aa: restore-tools"
+    },
+    {
+      "options": {
+        "cwd": "${workspaceFolder}/contracts/ss"
+      },
+      "label": "ss: restore-tools",
+      "command": "dotnet",
+      "type": "shell",
+      "args": [
+        "tool",
+        "restore"
+      ],
+      "presentation": {
+        "reveal": "silent"
+      },
+      "problemMatcher": []
+    },
+    {
+      "options": {
+        "cwd": "${workspaceFolder}/contracts/ss"
+      },
+      "label": "ss: build",
+      "command": "dotnet",
+      "type": "shell",
+      "args": [
+        "build",
+        "/property:GenerateFullPaths=true",
+        "/consoleloggerparameters:NoSummary"
+      ],
+      "group": "build",
+      "presentation": {
+        "reveal": "silent"
+      },
+      "problemMatcher": "$msCompile",
+      "dependsOn": "ss: restore-tools"
+    },
+    {
+      "options": {
+        "cwd": "${workspaceFolder}/contracts/sd"
+      },
+      "label": "sd: restore-tools",
+      "command": "dotnet",
+      "type": "shell",
+      "args": [
+        "tool",
+        "restore"
+      ],
+      "presentation": {
+        "reveal": "silent"
+      },
+      "problemMatcher": []
+    },
+    {
+      "options": {
+        "cwd": "${workspaceFolder}/contracts/sd"
+      },
+      "label": "sd: build",
+      "command": "dotnet",
+      "type": "shell",
+      "args": [
+        "build",
+        "/property:GenerateFullPaths=true",
+        "/consoleloggerparameters:NoSummary"
+      ],
+      "group": "build",
+      "presentation": {
+        "reveal": "silent"
+      },
+      "problemMatcher": "$msCompile",
+      "dependsOn": "sd: restore-tools"
+    },
+    {
+      "options": {
+        "cwd": "${workspaceFolder}/contracts/sds"
+      },
+      "label": "sds: restore-tools",
+      "command": "dotnet",
+      "type": "shell",
+      "args": [
+        "tool",
+        "restore"
+      ],
+      "presentation": {
+        "reveal": "silent"
+      },
+      "problemMatcher": []
+    },
+    {
+      "options": {
+        "cwd": "${workspaceFolder}/contracts/sds"
+      },
+      "label": "sds: build",
+      "command": "dotnet",
+      "type": "shell",
+      "args": [
+        "build",
+        "/property:GenerateFullPaths=true",
+        "/consoleloggerparameters:NoSummary"
+      ],
+      "group": "build",
+      "presentation": {
+        "reveal": "silent"
+      },
+      "problemMatcher": "$msCompile",
+      "dependsOn": "sds: restore-tools"
+    },
+    {
+      "options": {
+        "cwd": "${workspaceFolder}/contracts/sdsd"
+      },
+      "label": "sdsd: restore-tools",
+      "command": "dotnet",
+      "type": "shell",
+      "args": [
+        "tool",
+        "restore"
+      ],
+      "presentation": {
+        "reveal": "silent"
+      },
+      "problemMatcher": []
+    },
+    {
+      "options": {
+        "cwd": "${workspaceFolder}/contracts/sdsd"
+      },
+      "label": "sdsd: build",
+      "command": "dotnet",
+      "type": "shell",
+      "args": [
+        "build",
+        "/property:GenerateFullPaths=true",
+        "/consoleloggerparameters:NoSummary"
+      ],
+      "group": "build",
+      "presentation": {
+        "reveal": "silent"
+      },
+      "problemMatcher": "$msCompile",
+      "dependsOn": "sdsd: restore-tools"
+    },
+    {
+      "options": {
+        "cwd": "${workspaceFolder}/contracts/casdsde"
+      },
+      "label": "casdsde: restore-tools",
+      "command": "dotnet",
+      "type": "shell",
+      "args": [
+        "tool",
+        "restore"
+      ],
+      "presentation": {
+        "reveal": "silent"
+      },
+      "problemMatcher": []
+    },
+    {
+      "options": {
+        "cwd": "${workspaceFolder}/contracts/casdsde"
+      },
+      "label": "casdsde: build",
+      "command": "dotnet",
+      "type": "shell",
+      "args": [
+        "build",
+        "/property:GenerateFullPaths=true",
+        "/consoleloggerparameters:NoSummary"
+      ],
+      "group": "build",
+      "presentation": {
+        "reveal": "silent"
+      },
+      "problemMatcher": "$msCompile",
+      "dependsOn": "casdsde: restore-tools"
+    },
+    {
+      "options": {
+        "cwd": "${workspaceFolder}/contracts/sds"
+      },
+      "label": "sds: restore-tools",
+      "command": "dotnet",
+      "type": "shell",
+      "args": [
+        "tool",
+        "restore"
+      ],
+      "presentation": {
+        "reveal": "silent"
+      },
+      "problemMatcher": []
+    },
+    {
+      "options": {
+        "cwd": "${workspaceFolder}/contracts/sds"
+      },
+      "label": "sds: build",
+      "command": "dotnet",
+      "type": "shell",
+      "args": [
+        "build",
+        "/property:GenerateFullPaths=true",
+        "/consoleloggerparameters:NoSummary"
+      ],
+      "group": "build",
+      "presentation": {
+        "reveal": "silent"
+      },
+      "problemMatcher": "$msCompile",
+      "dependsOn": "sds: restore-tools"
+    },
+    {
+      "options": {
+        "cwd": "${workspaceFolder}/contracts/test1"
+      },
+      "label": "test1: restore-tools",
+      "command": "dotnet",
+      "type": "shell",
+      "args": [
+        "tool",
+        "restore"
+      ],
+      "presentation": {
+        "reveal": "silent"
+      },
+      "problemMatcher": []
+    },
+    {
+      "options": {
+        "cwd": "${workspaceFolder}/contracts/test1"
+      },
+      "label": "test1: build",
+      "command": "dotnet",
+      "type": "shell",
+      "args": [
+        "build",
+        "/property:GenerateFullPaths=true",
+        "/consoleloggerparameters:NoSummary"
+      ],
+      "group": "build",
+      "presentation": {
+        "reveal": "silent"
+      },
+      "problemMatcher": "$msCompile",
+      "dependsOn": "test1: restore-tools"
+    },
+    {
+      "options": {
+        "cwd": "${workspaceFolder}/contracts/test1"
+      },
+      "label": "test1: restore-tools",
+      "command": "dotnet",
+      "type": "shell",
+      "args": [
+        "tool",
+        "restore"
+      ],
+      "presentation": {
+        "reveal": "silent"
+      },
+      "problemMatcher": []
+    },
+    {
+      "options": {
+        "cwd": "${workspaceFolder}/contracts/test1"
+      },
+      "label": "test1: build",
+      "command": "dotnet",
+      "type": "shell",
+      "args": [
+        "build",
+        "/property:GenerateFullPaths=true",
+        "/consoleloggerparameters:NoSummary"
+      ],
+      "group": "build",
+      "presentation": {
+        "reveal": "silent"
+      },
+      "problemMatcher": "$msCompile",
+      "dependsOn": "test1: restore-tools"
+    },
+    {
+      "options": {
+        "cwd": "${workspaceFolder}/contracts/test2"
+      },
+      "label": "test2: restore-tools",
+      "command": "dotnet",
+      "type": "shell",
+      "args": [
+        "tool",
+        "restore"
+      ],
+      "presentation": {
+        "reveal": "silent"
+      },
+      "problemMatcher": []
+    },
+    {
+      "options": {
+        "cwd": "${workspaceFolder}/contracts/test2"
+      },
+      "label": "test2: build",
+      "command": "dotnet",
+      "type": "shell",
+      "args": [
+        "build",
+        "/property:GenerateFullPaths=true",
+        "/consoleloggerparameters:NoSummary"
+      ],
+      "group": "build",
+      "presentation": {
+        "reveal": "silent"
+      },
+      "problemMatcher": "$msCompile",
+      "dependsOn": "test2: restore-tools"
+    },
+    {
+      "options": {
+        "cwd": "${workspaceFolder}/contracts/test3"
+      },
+      "label": "test3: restore-tools",
+      "command": "dotnet",
+      "type": "shell",
+      "args": [
+        "tool",
+        "restore"
+      ],
+      "presentation": {
+        "reveal": "silent"
+      },
+      "problemMatcher": []
+    },
+    {
+      "options": {
+        "cwd": "${workspaceFolder}/contracts/test3"
+      },
+      "label": "test3: build",
+      "command": "dotnet",
+      "type": "shell",
+      "args": [
+        "build",
+        "/property:GenerateFullPaths=true",
+        "/consoleloggerparameters:NoSummary"
+      ],
+      "group": "build",
+      "presentation": {
+        "reveal": "silent"
+      },
+      "problemMatcher": "$msCompile",
+      "dependsOn": "test3: restore-tools"
+    },
+    {
+      "options": {
+        "cwd": "${workspaceFolder}/contracts/test5"
+      },
+      "label": "test5: restore-tools",
+      "command": "dotnet",
+      "type": "shell",
+      "args": [
+        "tool",
+        "restore"
+      ],
+      "presentation": {
+        "reveal": "silent"
+      },
+      "problemMatcher": []
+    },
+    {
+      "options": {
+        "cwd": "${workspaceFolder}/contracts/test5"
+      },
+      "label": "test5: build",
+      "command": "dotnet",
+      "type": "shell",
+      "args": [
+        "build",
+        "/property:GenerateFullPaths=true",
+        "/consoleloggerparameters:NoSummary"
+      ],
+      "group": "build",
+      "presentation": {
+        "reveal": "silent"
+      },
+      "problemMatcher": "$msCompile",
+      "dependsOn": "test5: restore-tools"
+    },
+    {
+      "options": {
+        "cwd": "${workspaceFolder}/contracts/Final"
+      },
+      "label": "Final: restore-tools",
+      "command": "dotnet",
+      "type": "shell",
+      "args": [
+        "tool",
+        "restore"
+      ],
+      "presentation": {
+        "reveal": "silent"
+      },
+      "problemMatcher": []
+    },
+    {
+      "options": {
+        "cwd": "${workspaceFolder}/contracts/Final"
+      },
+      "label": "Final: build",
+      "command": "dotnet",
+      "type": "shell",
+      "args": [
+        "build",
+        "/property:GenerateFullPaths=true",
+        "/consoleloggerparameters:NoSummary"
+      ],
+      "group": "build",
+      "presentation": {
+        "reveal": "silent"
+      },
+      "problemMatcher": "$msCompile",
+      "dependsOn": "Final: restore-tools"
+    },
+    {
+      "options": {
+        "cwd": "${workspaceFolder}/contracts/Final"
+      },
+      "label": "Final: restore-tools",
+      "command": "dotnet",
+      "type": "shell",
+      "args": [
+        "tool",
+        "restore"
+      ],
+      "presentation": {
+        "reveal": "silent"
+      },
+      "problemMatcher": []
+    },
+    {
+      "options": {
+        "cwd": "${workspaceFolder}/contracts/Final"
+      },
+      "label": "Final: build",
+      "command": "dotnet",
+      "type": "shell",
+      "args": [
+        "build",
+        "/property:GenerateFullPaths=true",
+        "/consoleloggerparameters:NoSummary"
+      ],
+      "group": "build",
+      "presentation": {
+        "reveal": "silent"
+      },
+      "problemMatcher": "$msCompile",
+      "dependsOn": "Final: restore-tools"
+    },
+    {
+      "options": {
+        "cwd": "${workspaceFolder}/contracts/t1"
+      },
+      "label": "t1: restore-tools",
+      "command": "dotnet",
+      "type": "shell",
+      "args": [
+        "tool",
+        "restore"
+      ],
+      "presentation": {
+        "reveal": "silent"
+      },
+      "problemMatcher": []
+    },
+    {
+      "options": {
+        "cwd": "${workspaceFolder}/contracts/t1"
+      },
+      "label": "t1: build",
+      "command": "dotnet",
+      "type": "shell",
+      "args": [
+        "build",
+        "/property:GenerateFullPaths=true",
+        "/consoleloggerparameters:NoSummary"
+      ],
+      "group": "build",
+      "presentation": {
+        "reveal": "silent"
+      },
+      "problemMatcher": "$msCompile",
+      "dependsOn": "t1: restore-tools"
+    },
+    {
+      "options": {
+        "cwd": "${workspaceFolder}/contracts/_44"
+      },
+      "label": "_44: restore-tools",
+      "command": "dotnet",
+      "type": "shell",
+      "args": [
+        "tool",
+        "restore"
+      ],
+      "presentation": {
+        "reveal": "silent"
+      },
+      "problemMatcher": []
+    },
+    {
+      "options": {
+        "cwd": "${workspaceFolder}/contracts/_44"
+      },
+      "label": "_44: build",
+      "command": "dotnet",
+      "type": "shell",
+      "args": [
+        "build",
+        "/property:GenerateFullPaths=true",
+        "/consoleloggerparameters:NoSummary"
+      ],
+      "group": "build",
+      "presentation": {
+        "reveal": "silent"
+      },
+      "problemMatcher": "$msCompile",
+      "dependsOn": "_44: restore-tools"
+    },
+    {
+      "options": {
+        "cwd": "${workspaceFolder}/contracts/Final1"
+      },
+      "label": "Final1: restore-tools",
+      "command": "dotnet",
+      "type": "shell",
+      "args": [
+        "tool",
+        "restore"
+      ],
+      "presentation": {
+        "reveal": "silent"
+      },
+      "problemMatcher": []
+    },
+    {
+      "options": {
+        "cwd": "${workspaceFolder}/contracts/Final1"
+      },
+      "label": "Final1: build",
+      "command": "dotnet",
+      "type": "shell",
+      "args": [
+        "build",
+        "/property:GenerateFullPaths=true",
+        "/consoleloggerparameters:NoSummary"
+      ],
+      "group": "build",
+      "presentation": {
+        "reveal": "silent"
+      },
+      "problemMatcher": "$msCompile",
+      "dependsOn": "Final1: restore-tools"
     }
   ]
 }

@@ -1,0 +1,9 @@
+[
+  {
+    "contract": "sdsContract",
+    "operation": "Balance of account",
+    "args": [
+      "Nak2RLt8Qf5cyoFdXpLp3jsxSS5KGi12fW"
+    ]
+  }
+]

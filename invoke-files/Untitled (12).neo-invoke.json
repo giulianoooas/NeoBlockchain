@@ -1,0 +1,17 @@
+[
+  {
+    "contract": "test3Contract",
+    "operation": "Get NFT url"
+  },
+  {
+    "contract": "test3Contract",
+    "operation": "Set nft url",
+    "args": [
+      "ffdfdf"
+    ]
+  },
+  {
+    "contract": "test3Contract",
+    "operation": "Get NFT url"
+  }
+]

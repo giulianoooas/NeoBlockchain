@@ -1,9 +1,9 @@
 [
   {
-    "contract": "vContract",
-    "operation": "showHelloWorld",
+    "contract": "Contract1Contract",
+    "operation": "changeNumber",
     "args": [
-      "Nak2RLt8Qf5cyoFdXpLp3jsxSS5KGi12fW"
+      20
     ]
   }
 ]
