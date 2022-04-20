@@ -1,0 +1,17 @@
+[
+  {
+    "contract": "ContractForPresentingContract",
+    "operation": "changeNumber",
+    "args": [
+      10
+    ]
+  },
+  {
+    "contract": "ContractForPresentingContract",
+    "operation": "Transfer money",
+    "args": [
+      "NZdqjNUkd1PDXJyymMFCiEsiaVJg3dPxQx",
+      2
+    ]
+  }
+]

@@ -1526,6 +1526,41 @@
       },
       "problemMatcher": "$msCompile",
       "dependsOn": "Final1: restore-tools"
+    },
+    {
+      "options": {
+        "cwd": "${workspaceFolder}/contracts/ContractForPresenting"
+      },
+      "label": "ContractForPresenting: restore-tools",
+      "command": "dotnet",
+      "type": "shell",
+      "args": [
+        "tool",
+        "restore"
+      ],
+      "presentation": {
+        "reveal": "silent"
+      },
+      "problemMatcher": []
+    },
+    {
+      "options": {
+        "cwd": "${workspaceFolder}/contracts/ContractForPresenting"
+      },
+      "label": "ContractForPresenting: build",
+      "command": "dotnet",
+      "type": "shell",
+      "args": [
+        "build",
+        "/property:GenerateFullPaths=true",
+        "/consoleloggerparameters:NoSummary"
+      ],
+      "group": "build",
+      "presentation": {
+        "reveal": "silent"
+      },
+      "problemMatcher": "$msCompile",
+      "dependsOn": "ContractForPresenting: restore-tools"
     }
   ]
 }
