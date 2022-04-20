@@ -3,7 +3,7 @@
     "contract": "Contract0Contract",
     "operation": "Set nft url",
     "args": [
-      "UrlNFT"
+      "nfttUrl"
     ]
   },
   {
@@ -22,7 +22,7 @@
     "operation": "Transfer money",
     "args": [
       "NZdqjNUkd1PDXJyymMFCiEsiaVJg3dPxQx",
-      12
+      2220
     ]
   },
   {
