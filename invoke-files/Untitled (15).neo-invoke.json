@@ -24,5 +24,9 @@
       "NZdqjNUkd1PDXJyymMFCiEsiaVJg3dPxQx",
       12
     ]
+  },
+  {
+    "contract": "Contract0Contract",
+    "operation": "getNumber"
   }
 ]
